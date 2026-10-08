@@ -1,1 +1,33 @@
-<iframe src="https://script.google.com/macros/s/AKfycbx9OPqjXxNjcFEAphboQJO8BOVz8BIe4kdtMkBeeXAm7IyC_TYdYL6E-ADTGS8PWzvbaA/exec" width="100%" height="800px" frameborder="0"></iframe>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secretaría de Educación - Lanús Gobierno</title>
+    <style>
+        /* Eliminamos márgenes por defecto y forzamos altura total de pantalla */
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden; /* ELIMINA EL SCROLL EXTERNO DEL NAVEGADOR */
+            background-color: #002855; /* Color del header para evitar parpadeos blancos al cargar */
+        }
+
+        /* El iframe se expande a la totalidad de la ventana */
+        iframe {
+            display: block;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <iframe 
+        src="https://script.google.com/macros/s/AKfycbx9OPqjXxNjcFEAphboQJO8BOVz8BIe4kdtMkBeeXAm7IyC_TYdYL6E-ADTGS8PWzvbaA/exec" 
+        allow="fullscreen; geolocation; camera; microphone">
+    </iframe>
+</body>
+</html>
